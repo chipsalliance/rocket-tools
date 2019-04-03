@@ -1,8 +1,9 @@
-riscv-tools [![Build Status](https://travis-ci.org/riscv/riscv-tools.svg?branch=master)](https://travis-ci.org/riscv/riscv-tools)
+rocket-tools [![Build Status](https://travis-ci.org/freechipsproject/rocket-tools.svg?branch=master)](https://travis-ci.org/freechipsproject/rocket-tools)
 ===========================================================================
 
-This repository houses a set of RISC-V simulators, compilers, and other
-tools, including the following projects:
+This meta-repository points to a collection of software tools that support
+the [Rocket Chip Generator](https://github.com/freechipsproject/rocket-chip),
+including:
 
 * [Spike](https://github.com/riscv/riscv-isa-sim/), the ISA simulator
 * [riscv-tests](https://github.com/riscv/riscv-tests/), a battery of
@@ -14,25 +15,11 @@ a boot loader for Linux and similar OS kernels, and `pk`, a proxy kernel that
 services system calls for a target-machine application by forwarding them to
 the host machine
 
-Several RISC-V tools that were previously maintained through this repository
-have since been upstreamed to their parent projects.  Although this repository
-continues to contain versions of the following tools, they are now primarily
-supported and maintained via their parent projects:
+The above projects are not supported via this repository, and this repository
+is not supported for any purpose other than use with Rocket Chip.
 
-* [Binutils](https://www.gnu.org/software/binutils/)
-* [GCC](https://gcc.gnu.org/), the GNU C Compiler
-* [GDB](https://www.gnu.org/software/gdb/), the GNU Debugger
-* [glibc](https://www.gnu.org/software/libc/), the GNU C Library
-* [QEMU](https://www.qemu.org/), an emulator
-* [Newlib](https://sourceware.org/newlib/), a C library
-* [OpenOCD](http://openocd.org/)
-
-Your favorite software distribution should already have packages for
-these upstream tools, but if it doesn't then the [RISC-V Port of
-OpenEmbedded](https://github.com/riscv/meta-riscv#quick-start) is a
-great place to start!
-
-# <a name="quickstart"></a>Quickstart
+Quickstart
+----------
 
 	$ git submodule update --init --recursive
 	$ export RISCV=/path/to/install/riscv/toolchain
