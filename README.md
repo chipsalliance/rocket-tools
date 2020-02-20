@@ -1,8 +1,8 @@
-rocket-tools [![Build Status](https://travis-ci.org/freechipsproject/rocket-tools.svg?branch=master)](https://travis-ci.org/freechipsproject/rocket-tools)
+rocket-tools [![Build Status](https://travis-ci.org/chipsalliance/rocket-tools.svg?branch=master)](https://travis-ci.org/chipsalliance/rocket-tools)
 ===========================================================================
 
 This meta-repository points to a collection of software tools that support
-the [Rocket Chip Generator](https://github.com/freechipsproject/rocket-chip),
+the [Rocket Chip Generator](https://github.com/chipsalliance/rocket-chip),
 including:
 
 * [Spike](https://github.com/riscv/riscv-isa-sim/), the ISA simulator
