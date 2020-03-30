@@ -53,4 +53,4 @@ install: travis_wait
 # default python path.
 script:
   - ./build.sh
-  - PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages make -C riscv-tests/build debug-check
+  - PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages make -C riscv-tests/build debug-check-fast
