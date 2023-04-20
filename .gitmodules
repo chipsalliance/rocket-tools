@@ -18,4 +18,4 @@
 	url = https://github.com/riscv/riscv-openocd.git
 [submodule "fsf-binutils-gdb"]
 	path = fsf-binutils-gdb
-	url = git://sourceware.org/git/binutils-gdb.git
+	url = https://sourceware.org/git/binutils-gdb.git
